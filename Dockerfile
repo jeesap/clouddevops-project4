@@ -11,8 +11,8 @@ COPY . /app
 # Install packages from requirements.txt
 # hadolint ignore=DL3013
 
-RUN pip install --disable-pip-version-check --upgrade pip==21.0.1 &&\
-    pip install -r requirements.txt
+RUN pip install --disable-pip-version-check --no-cache-dir --upgrade pip==21.0.1 &&\
+ pip install -r requirements.txt --no-cache-dir
 
 ## Step 4:
 # Expose port 80
