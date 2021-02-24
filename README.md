@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+https://circleci.com/gh/jeesap/project-4.svg?style=svg
 
 ## Project Overview
 
