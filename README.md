@@ -18,6 +18,7 @@ Upload a complete Github repo with CircleCI to indicate that code has been teste
 Create a virtualenv and activate it
 
 $python3 -m venv ~/.devops
+
 $source ~/.devops/bin/activate
 
 Run make install to install the necessary dependencies
