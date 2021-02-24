@@ -13,4 +13,5 @@ dockerpath=jeesap/jees
 echo "44f137806969 and jees: $dockerpath"
 # Step 3:
 # Push image to a docker repository
+docker login
 docker push $dockerpath:mlmapi
