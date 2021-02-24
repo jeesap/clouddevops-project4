@@ -50,17 +50,29 @@ $./upload_docker.sh
 ## Files included
 
 1).circleci - CircleCI config scripts
+
 2)model_data - ML model related data (model, csv data)
+
 3)output_txt_files - Project output files (docker, kubernetes)
+
 4)docker_out.txt - run_docker.sh output
+
 5)kubernetes_out.txt - run_kubernetes.sh output
+
 6)app.py - Python web application
+
 7)Dockerfile - Docker image config
+
 8)make_prediction.sh - Make prediction HTTP call script
+
 9)Makefile - make file (install, test, lint steps)
+
 10)requirements.txt - Web application dependencies to be installed (python, libraries)
+
 11)run_docker.sh - Run docker container script
+
 12)run_kubernetes.sh - Script to run kubernetes pod for the web app 
+
 13)upload_docker.sh - Script to upload docker image to docker hub script 
 
 
